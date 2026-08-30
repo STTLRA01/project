@@ -159,6 +159,39 @@ footer {
     border-top: 2px solid #7FA9C4;
 }
 
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px;
+    background-color: #25282B;
+    border: 1px solid #555;
+    border-left: 4px solid #7FA9C4;
+}
+
+.education-arrow {
+    color: #7FA9C4;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.education-item h3 {
+    color: #7FA9C4;
+    margin: 0 0 5px;
+    font-size: 24px;
+}
+
+.education-item p {
+    margin: 3px 0;
+}
+
 /* Phone */
 
 @media (max-width: 600px) {

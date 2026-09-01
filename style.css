@@ -7,11 +7,13 @@ body {
     color: #D6D8D9;
 }
 
-header {
+   header {
     min-height: 400px;
     padding: 70px 40px;
-    text-align: left;
-    background-color: #25282B;
+    background-image: url("head.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #F2F2ED;
     border-bottom: 4px solid #7FA9C4;
     display: flex;
@@ -20,6 +22,8 @@ header {
 }
 
 header h1 {
+    color:#D6D8D9;
+    padding: 20;
     font-size: 55px;
     margin: 0;
     letter-spacing: 2px;
@@ -192,6 +196,35 @@ footer {
     margin: 3px 0;
 }
 
+.socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-tile {
+    width: 220px;
+    padding: 20px;
+    background-color: #25282B;
+    border: 1px solid #555;
+    border-top: 3px solid #7FA9C4;
+    text-decoration: none;
+    color: #D6D8D9;
+}
+
+.social-tile h3 {
+    color: #7FA9C4;
+    margin: 0 0 5px;
+    font-size: 22px;
+}
+
+.social-tile p {
+    margin: 0;
+}
+.social-tile:hover {
+    box-shadow: 0 0 6px #7FA9C4;
+}
 /* Phone */
 
 @media (max-width: 600px) {
@@ -237,4 +270,7 @@ footer {
         width: auto;
         margin: 20px 0;
     }
+    .social-tile {
+    width: auto;
+}
 }
